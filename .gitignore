@@ -3,3 +3,4 @@
 
 # Except the dist folder
 !dist/
+!/dist/**
