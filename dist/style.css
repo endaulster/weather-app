@@ -68,6 +68,10 @@ body {
   border: 3px solid rgb(71, 140, 250);
 }
 
+.cityinput.error {
+  border: 3px solid red;
+}
+
 .cityinput::placeholder {
   color: rgb(207, 207, 207);
 }
