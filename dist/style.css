@@ -27,6 +27,15 @@ body {
   padding: 77px;
 }
 
+.blurred {
+  filter: blur(15px);
+}
+
+.current-climate,
+.card-holder {
+  transition: filter 0.5s ease;
+}
+
 /* SEARCH BAR */
 
 .citysearch {
