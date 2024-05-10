@@ -14,7 +14,7 @@
   <body>
     <div class="wrapper">
       <div>
-        <form action="" class="citysearch">
+        <form action="" class="citysearch" data-form-search>
           <img
             class="searchicon"
             src="icons/search.svg"
@@ -22,15 +22,22 @@
             sizes=""
             srcset=""
           />
-          <input type="text" class="cityinput" placeholder="Search" />
+
+          <input
+            type="text"
+            class="cityinput"
+            placeholder="Search"
+            id="Searchbar"
+            data-form-input
+          />
         </form>
       </div>
-      <div class="current-climate">
+      <div class="current-climate" data-blur-section>
         <p class="c-forecast" data-forecast-city-name>Buenos Aires</p>
         <p class="h-forecast" data-forecast-city-temperature>16°</p>
-        <p class="p-forecast" data-forecast-city-description>Sunny</p>
+        <p class="p-forecast" data-forecast-city-condition>Sunny</p>
       </div>
-      <div class="card-holder">
+      <div class="card-holder" data-blur-section2>
         <div class="card">
           <div class="card-title">
             <img
@@ -93,5 +100,5 @@
       </div>
     </div>
   </body>
-  <!-- <script src="main.js"></script> -->
+  <script src="main.js"></script>
 </html>
