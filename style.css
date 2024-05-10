@@ -39,6 +39,7 @@ body {
 /* SEARCH BAR */
 
 .citysearch {
+  position: relative;
   padding-bottom: 22px;
   display: flex;
   justify-content: center;
@@ -47,11 +48,11 @@ body {
 
 .searchicon {
   position: absolute;
-  transform: translateX(-500%);
+  transform: translateX(-50%);
+  left: 20px;
 }
 
 .cityinput {
-  position: relative;
   height: 1.5em;
   width: 12em;
   border: 3px solid transparent;
