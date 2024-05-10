@@ -11,6 +11,87 @@
       content="Navigate through the intricate patterns of weather with Compass Rose Weather."
     />
   </head>
-  <body></body>
-  <script src="main.js"></script>
+  <body>
+    <div class="wrapper">
+      <div>
+        <form action="" class="citysearch">
+          <img
+            class="searchicon"
+            src="icons/search.svg"
+            height="20px"
+            sizes=""
+            srcset=""
+          />
+          <input type="text" class="cityinput" placeholder="Search" />
+        </form>
+      </div>
+      <div class="current-climate">
+        <p class="c-forecast" data-forecast-city-name>Buenos Aires</p>
+        <p class="h-forecast" data-forecast-city-temperature>16°</p>
+        <p class="p-forecast" data-forecast-city-description>Sunny</p>
+      </div>
+      <div class="card-holder">
+        <div class="card">
+          <div class="card-title">
+            <img
+              src="icons/feelslike.svg"
+              height="15px"
+              width="auto"
+              alt="termometer"
+              srcset=""
+              class="weathericon"
+            />
+            <p>FEELS LIKE</p>
+          </div>
+          <p class="card-content" data-forecast-city-feelslike>14°</p>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <img
+              src="icons/visibility.svg"
+              height="15px"
+              width="auto"
+              alt="termometer"
+              srcset=""
+              class="weathericon"
+            />
+            <p>VISIBILITY</p>
+          </div>
+          <p class="card-content" data-forecast-city-visibility>10 km</p>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <img
+              src="icons/humidity.svg"
+              height="15px"
+              width="auto"
+              alt="termometer"
+              srcset=""
+              class="weathericon"
+            />
+            <p>HUMIDITY</p>
+          </div>
+          <p class="card-content" data-forecast-city-humidity>10%</p>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <img
+              src="icons/preassure.svg"
+              height="15px"
+              width="auto"
+              alt="termometer"
+              srcset=""
+              class="weathericon"
+            />
+            <p>PREASSURE</p>
+          </div>
+          <p class="card-content" data-forecast-city-preassure>10 hPA</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- <script src="main.js"></script> -->
 </html>
