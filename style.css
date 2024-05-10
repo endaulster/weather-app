@@ -51,6 +51,7 @@ body {
 }
 
 .cityinput {
+  position: relative;
   height: 1.5em;
   width: 12em;
   border: 3px solid transparent;
